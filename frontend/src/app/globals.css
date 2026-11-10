@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), var(--font-kannada), system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-geist-sans), var(--font-kannada), system-ui, sans-serif;
+}
+
+audio {
+  color-scheme: light;
+}
